@@ -546,7 +546,7 @@ if uploaded_file:
             )
 
             st.session_state.input_counter += 1
-            # st.rerun()
+            st.rerun()
 
         # ---------------------------------------------------
         # Performance Prediction
