@@ -73,6 +73,10 @@ def apply_custom_css():
             background-color: #E5E7EB !important;
         }
 
+        section[data-testid="stSidebar"] small {
+            color: #F9FAFB !important;
+        }
+
         .footer {
             text-align: center;
             color: #6B7280;
