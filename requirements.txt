@@ -1,0 +1,13 @@
+streamlit==1.50.0
+google-genai
+chromadb
+sentence-transformers
+scikit-learn
+pandas
+numpy
+pillow
+pymupdf
+python-dotenv
+torch
+transformers
+pypdf
