@@ -93,7 +93,12 @@ def clean_quiz_questions(quiz_data):
 
 
 def show_pdf_page_button(page_number, button_key):
+    image_key = f"{button_key}_image"
+
     if st.button(f"View Page {page_number}", key=button_key):
+        st.session_state[image_key] = page_number
+
+    if st.session_state.get(image_key) == page_number:
         page_image = render_pdf_page_as_image(
             uploaded_file,
             page_number
