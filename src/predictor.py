@@ -69,7 +69,8 @@ def predict_exam_score(
     # Quiz accuracy impact
     # -----------------------------------
 
-    predicted_score += quiz_score * 0.40
+    effective_quiz_score = quiz_score * (completion_percent / 100)
+    predicted_score += effective_quiz_score * 0.40
 
     # -----------------------------------
     # Quiz completion impact
