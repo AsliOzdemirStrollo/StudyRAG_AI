@@ -126,6 +126,26 @@ Context-Aware Answer + Source References
 
 ---
 
+## 📊 Prediction Model
+
+The exam performance prediction component was implemented using a Linear Regression model from Scikit-learn.
+
+Linear Regression was selected because:
+- the project uses multiple continuous input variables
+- the prediction target is numerical (future exam score)
+- the model is lightweight and interpretable
+- it is suitable for demonstrating feature influence within an educational prediction context
+
+Prediction factors include:
+- previous exam score
+- study hours
+- days remaining until exam
+- quiz accuracy
+- quiz completion percentage
+- document complexity metrics
+
+---
+
 ## 📂 Project Structure
 
 ```text
