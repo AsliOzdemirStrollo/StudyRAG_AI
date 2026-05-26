@@ -1,6 +1,6 @@
 # 📚 StudyRAG AI
 
-Final Year Project — An AI-powered Retrieval-Augmented Generation (RAG) study assistant for document-based learning, interactive quizzes, contextual chatbot support, and exam performance prediction.
+Final Project — An AI-powered Retrieval-Augmented Generation (RAG) study assistant for document-based learning, interactive quizzes, contextual chatbot support, and exam performance prediction.
 
 ---
 
@@ -306,7 +306,7 @@ After deployment, several refinements and debugging improvements were performed,
 
 **Asli Özdemir Strollo**
 
-Final Year Project — StudyRAG AI
+Final Project — StudyRAG AI
 
 ---
 
