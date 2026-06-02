@@ -213,9 +213,11 @@ def render_interactive_quiz():
         }
 
         st.info(
-            f"Current checked score: "
-            f"{correct_count}/{checked_count} "
-            f"({score_percent}%)"
+            f"Correct answers: {correct_count}/{total_questions}\n\n"
+            f"Accuracy on answered questions: "
+            f"{correct_count}/{checked_count} ({score_percent}%)\n\n"
+            f"Quiz completion: "
+            f"{checked_count}/{total_questions} ({completion_percent}%)"
         )
 
 
