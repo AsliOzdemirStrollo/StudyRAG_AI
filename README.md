@@ -202,6 +202,14 @@ The system automatically generates multiple-choice study questions with explanat
 
 ---
 
+### Quiz Scoring & Progress Tracking
+
+![Quiz Score Tracking](screenshots/quiz_score.png)
+
+The quiz system tracks multiple learning metrics, including correct answers, quiz accuracy, and completion percentage. These metrics provide feedback on learning progress and are also used by the performance prediction module to improve prediction reliability.
+
+---
+
 ### Performance Prediction Module
 
 ![Performance Prediction](screenshots/prediction.png)
