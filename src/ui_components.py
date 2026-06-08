@@ -124,8 +124,8 @@ def render_sidebar():
         )
 
         st.caption(
-            "Recommended PDF size: under 30MB. "
-            "Files over 100MB will not be processed."
+            "Recommended PDF size: under 30MB for optimal performance. "
+            "Maximum supported size: 100MB."
         )
 
         st.markdown("---")
